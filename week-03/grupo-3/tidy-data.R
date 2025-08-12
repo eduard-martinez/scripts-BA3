@@ -56,14 +56,14 @@ db <- import("https://raw.githubusercontent.com/eduard-martinez/datasets/main/we
 ## filter()
 
 
-### 3.3. Combinar condiciones con `&` y `|`.
+### 3.3. Combinar condiciones con & y |.
 
 ## dos variables
 
 
 ####== 4. Ordenamiento
 
-## `arrange()` ascendente y descendente (`desc()`).
+## arrange() ascendente y descendente (desc()).
 
 
 ## Ordenar por múltiples columnas.
@@ -71,41 +71,41 @@ db <- import("https://raw.githubusercontent.com/eduard-martinez/datasets/main/we
 
 ####== 5. Creación y modificación de variables
 
-## `mutate()` para nuevas columnas o transformar existentes.
+## mutate() para nuevas columnas o transformar existentes.
 
 
-## Funciones útiles: `if_else()`, `case_when()`, `nchar()`, `as.numeric()`.
+## Funciones útiles: if_else(), case_when(), nchar(), as.numeric().
 
 
-## `transmute()` para crear columnas y descartar las demás.
+## transmute() para crear columnas y descartar las demás.
 
 ####== 6. Reestructuración de datos
 
-## `distinct()` para eliminar duplicados.
+## distinct() para eliminar duplicados.
 
 
-## `rename()` y `rename_with()` para cambiar nombres de columnas.
+## rename() y rename_with() para cambiar nombres de columnas.
 
 
-## Formatos *wide* y *long* (`pivot_longer()`, `pivot_wider()`).
+## Formatos *wide* y *long* (pivot_longer(), pivot_wider()).
 clientes <- import("https://raw.githubusercontent.com/eduard-martinez/datasets/main/week-04/output/clientes_cali.rds")
 
 ####== 7. Introducción al operador pipe
 
-## Qué es y por qué mejora la legibilidad (`|>` y `%>%`).
+## Qué es y por qué mejora la legibilidad (|> y %>%).
 
 
-## Ejemplos simples (sin `dplyr`) → comparación sin pipe / con pipe.
+## Ejemplos simples (sin dplyr) → comparación sin pipe / con pipe.
 
 
-## Aplicar pipe en `dplyr` sobre ejemplos ya vistos (`filter()` + `select()` + `arrange()`).
+## Aplicar pipe en dplyr sobre ejemplos ya vistos (filter() + select() + arrange()).
 
 
 ####== 8. Resumen y agregación
 
-## `summarise()` con estadísticos básicos (`mean()`, `median()`, `sd()`, `n()`).
+## summarise() con estadísticos básicos (mean(), median(), sd(), n()).
 
-## `group_by()` para agrupamientos.
+## group_by() para agrupamientos.
 
 ## Varias agregaciones en un pipeline.
 
