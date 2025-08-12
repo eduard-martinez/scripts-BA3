@@ -1,4 +1,4 @@
-## Eduard Martínez
+## Eduard Martínez 
 ## R version 4.5.0
 
 ####== 1. Configuración Inicial
